@@ -200,9 +200,3 @@ with col_b:
     st.image(
         "avatar.png"  
     )
-
-st.divider()
-st.caption(
-    "Esta demo ilustra cómo un enfoque RAG permite generar recomendaciones energéticas "
-    "más fiables, trazables y explicables."
-)
