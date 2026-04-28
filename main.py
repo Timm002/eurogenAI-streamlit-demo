@@ -188,15 +188,15 @@ for rec in all_recommendations:
 # -----------------------------
 # 5. Accesibilidad (demo)
 # -----------------------------
-st.header("♿ Accesibilidad")
+with st.expander("♿ Accesibilidad", expanded=False):
 
-col_a, col_b = st.columns(2)
+    col_a, col_b = st.columns(2)
 
-with col_a:
-    if st.button("🔊 Escuchar recomendación (demo)"):
-        st.info("Salida por voz simulada (Text-to-Speech)")
+    with col_a:
+        if st.button("🔊 Escuchar recomendación (demo)"):
+            st.info("Salida por voz simulada (Text-to-Speech)")
 
-with col_b:
-    st.image(
-        "avatar.png"  
-    )
+    with col_b:
+        st.image(
+            "avatar.png"  
+        )
